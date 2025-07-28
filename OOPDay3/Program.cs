@@ -1,6 +1,7 @@
 ﻿using OOPDay3.InterfaceEX01;
 using OOPDay3.InterfaceEx02;
 using OOPDay3.InterfaceEx03;
+using System.Text;
 
 namespace OOPDay3
 {
@@ -107,6 +108,89 @@ namespace OOPDay3
             //flyable.Backward(); 
             #endregion
 
+            #region Shallo Copy Vs Deep Copy
+            //Shallo Copy Vs Deep Copy
+            //int[] Arr1 = { 1, 2, 3 };
+            //int[] Arr2 = { 4, 5, 6 };
+            //Console.WriteLine(Arr1.GetHashCode());
+            //Console.WriteLine(Arr2.GetHashCode());
+            //Console.WriteLine();
+
+            //Arr2 = Arr1;
+            //Console.WriteLine(Arr1.GetHashCode());
+            //Console.WriteLine(Arr2.GetHashCode());
+
+            //Arr2[0] = 100;
+            //Console.WriteLine(Arr1[0]);
+
+            //Console.WriteLine(Arr1.GetHashCode());
+            //Console.WriteLine(Arr2.GetHashCode());
+            //Console.WriteLine();
+
+            //Arr2 = (int[]) Arr1.Clone();
+            //Console.WriteLine(Arr1.GetHashCode());
+            //Console.WriteLine(Arr2.GetHashCode());
+
+            //Arr2[0] = 100;
+            //Console.WriteLine(Arr1[0]);
+
+            //string [] Arr1 = { "a","b","c" };
+            //string [] Arr2 = { "d","e","f" };
+
+            //Console.WriteLine(Arr1.GetHashCode());
+            //Console.WriteLine(Arr2.GetHashCode());
+            //Console.WriteLine();
+
+            //Arr2 = Arr1;
+            //Console.WriteLine(Arr1.GetHashCode());
+            //Console.WriteLine(Arr2.GetHashCode());
+            //Arr2[0] += "mjh";
+            //Console.WriteLine(Arr1[0]);
+
+
+            //Console.WriteLine(Arr1.GetHashCode());
+            //Console.WriteLine(Arr2.GetHashCode());
+            //Console.WriteLine();
+
+            //Arr2 = (string[])Arr1.Clone();
+            //Console.WriteLine(Arr1.GetHashCode());
+            //Console.WriteLine(Arr2.GetHashCode());
+            //Arr2[0] += "mjh";
+            //Console.WriteLine(Arr1[0]);
+
+            //StringBuilder[] Arr1 = new StringBuilder[]
+            //    {
+            //        new StringBuilder("Ahmed"),
+            //        new StringBuilder("Ali"),
+            //        new StringBuilder("Mohamed")
+            //    };
+
+            //StringBuilder[] Arr2 = new StringBuilder[]
+            //   {
+            //        new StringBuilder("Amr"),
+            //        new StringBuilder("Ziad"),
+            //        new StringBuilder("Arfa")
+            //   };
+
+            ////Console.WriteLine(Arr1.GetHashCode());
+            ////Console.WriteLine(Arr2.GetHashCode());
+            ////Console.WriteLine();
+
+            ////Arr2 = Arr1;
+            ////Console.WriteLine(Arr1.GetHashCode());
+            ////Console.WriteLine(Arr2.GetHashCode());
+            ////Arr1[0].Append(" mo ");
+            ////Console.WriteLine(Arr2[0]);
+            //Console.WriteLine(Arr1.GetHashCode());
+            //Console.WriteLine(Arr2.GetHashCode());
+            //Console.WriteLine();
+
+            //Arr2 = (StringBuilder[])Arr1.Clone();
+            //Console.WriteLine(Arr1.GetHashCode());
+            //Console.WriteLine(Arr2.GetHashCode());
+            //Arr1[0].Append(" mo ");
+            //Console.WriteLine(Arr2[0]); 
+            #endregion
 
 
         }
