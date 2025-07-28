@@ -1,5 +1,6 @@
 ﻿using OOPDay3.InterfaceEX01;
 using OOPDay3.InterfaceEx02;
+using OOPDay3.InterfaceEx03;
 
 namespace OOPDay3
 {
@@ -92,6 +93,20 @@ namespace OOPDay3
             //    Console.WriteLine(item);
             //} 
             #endregion
+
+            #region InterfaceEx03
+            //Car car = new Car();
+
+            //car.Speed = 100;
+            //car.Backward();
+
+            //Plane plane = new Plane();
+            //IMoveable moveable = plane;
+            //moveable.Backward();
+            //IFlyable flyable = plane;
+            //flyable.Backward(); 
+            #endregion
+
 
 
         }
