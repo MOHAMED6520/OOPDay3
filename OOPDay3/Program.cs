@@ -193,19 +193,37 @@ namespace OOPDay3
             #endregion
 
             #region Icloneable
-            //Built In Intrface
-            //Icloneable
-            Employee Emp01 = new Employee() { Id = 1, Name = "Mohamed", Age = 30, Salary = 20200 };
-            Employee Emp02 = new Employee() { Id = 2, Name = "Ahmed", Age = 25, Salary = 21200 };
-            //Emp02= Emp01;
-            Console.WriteLine(Emp02);
-            Console.WriteLine(Emp01.GetHashCode());
-            Console.WriteLine(Emp02.GetHashCode());
-            Emp02 = (Employee)Emp01.Clone();
-            Console.WriteLine(Emp01);
-            Console.WriteLine(Emp01.GetHashCode());
-            Console.WriteLine(Emp02.GetHashCode());
-            Emp02 = new Employee(Emp01); 
+            //////Built In Intrface
+            //////Icloneable
+            ////Employee Emp01 = new Employee() { Id = 1, Name = "Mohamed", Age = 30, Salary = 20200 };
+            ////Employee Emp02 = new Employee() { Id = 2, Name = "Ahmed", Age = 25, Salary = 21200 };
+            //////Emp02= Emp01;
+            ////Console.WriteLine(Emp02);
+            ////Console.WriteLine(Emp01.GetHashCode());
+            ////Console.WriteLine(Emp02.GetHashCode());
+            ////Emp02 = (Employee)Emp01.Clone();
+            ////Console.WriteLine(Emp01);
+            ////Console.WriteLine(Emp01.GetHashCode());
+            ////Console.WriteLine(Emp02.GetHashCode());
+            ////Emp02 = new Employee(Emp01);
+            #endregion
+
+            #region IComparable
+            //IComparable
+
+            //Employee[] employees = new Employee[3]
+            //{
+            //new Employee(){Id =1 , Name = "Mohamed" , Age = 25 , Salary = 15000},
+            //new Employee(){Id =2 , Name = "Ali" , Age = 24 , Salary = 12000},
+            //new Employee(){Id =3 , Name = "Ahmed" , Age = 26 , Salary = 11000}
+            //};
+
+            //Array.Sort(employees);
+
+            //foreach (Employee item in employees)
+            //{
+            //    Console.WriteLine(item);
+            //} 
             #endregion
 
 

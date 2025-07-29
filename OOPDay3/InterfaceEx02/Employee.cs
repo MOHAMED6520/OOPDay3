@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPDay3.InterfaceEx02
 {
-    internal class Employee:ICloneable
+    internal class Employee:ICloneable,IComparable
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -34,5 +34,15 @@ namespace OOPDay3.InterfaceEx02
             return $"Id : {Id} ::Name : {Name} :: Age {Age} :: Salary {Salary}  ::  ";
         }
 
+        public int CompareTo(object? obj)
+        {
+            Employee emp = (Employee)obj;
+            //if (this.Salary > emp.Salary)
+            //    return 1;
+            //else if (this.Salary < emp.Salary)
+            //    return -1;
+            //else return 0 ;
+          return  this.Age.CompareTo(emp.Age);
+        }
     }
 }
