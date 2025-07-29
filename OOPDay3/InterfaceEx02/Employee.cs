@@ -6,12 +6,28 @@ using System.Threading.Tasks;
 
 namespace OOPDay3.InterfaceEx02
 {
-    internal class Employee
+    internal class Employee:ICloneable
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }
         public int Salary { get; set; }
+        public Employee()
+        {
+                
+        }
+        public Employee(Employee emp)
+        {
+            Id = emp.Id;
+            Name = emp.Name;
+            Age = emp.Age;
+            Salary = emp.Salary;
+
+        }
+        public object Clone()
+        {
+            return new Employee(this) ;
+        }
 
         public override string ToString()
         {

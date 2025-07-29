@@ -192,6 +192,22 @@ namespace OOPDay3
             //Console.WriteLine(Arr2[0]); 
             #endregion
 
+            #region Icloneable
+            //Built In Intrface
+            //Icloneable
+            Employee Emp01 = new Employee() { Id = 1, Name = "Mohamed", Age = 30, Salary = 20200 };
+            Employee Emp02 = new Employee() { Id = 2, Name = "Ahmed", Age = 25, Salary = 21200 };
+            //Emp02= Emp01;
+            Console.WriteLine(Emp02);
+            Console.WriteLine(Emp01.GetHashCode());
+            Console.WriteLine(Emp02.GetHashCode());
+            Emp02 = (Employee)Emp01.Clone();
+            Console.WriteLine(Emp01);
+            Console.WriteLine(Emp01.GetHashCode());
+            Console.WriteLine(Emp02.GetHashCode());
+            Emp02 = new Employee(Emp01); 
+            #endregion
+
 
         }
     }
