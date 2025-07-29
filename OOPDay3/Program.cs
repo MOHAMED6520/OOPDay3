@@ -226,6 +226,24 @@ namespace OOPDay3
             //} 
             #endregion
 
+            #region IComparer
+            //IComparer
+
+            //Employee[] employees = new Employee[3]
+            //{
+            //new Employee(){Id =1 , Name = "Mohamed" , Age = 25 , Salary = 15000},
+            //new Employee(){Id =2 , Name = "Ali" , Age = 24 , Salary = 12000},
+            //new Employee(){Id =3 , Name = "Ahmed" , Age = 26 , Salary = 11000}
+            //};
+
+            //Array.Sort(employees,new EmployeeCompareNameLenght () );
+
+            //foreach (Employee item in employees)
+            //{
+            //    Console.WriteLine(item);
+            //} 
+            #endregion
+
 
         }
     }
