@@ -1,4 +1,6 @@
 ﻿using OOPDay3.Q01;
+using OOPDay3.Q02;
+using System.Data;
 
 namespace OOPDay3
 {
@@ -33,7 +35,7 @@ namespace OOPDay3
             //Q10 c) By separating interface names with commas 
             #endregion
 
-      
+
             #region Part02 Q01
             //Circle circle = new Circle();
             //circle.Area = 10.35;
@@ -44,6 +46,22 @@ namespace OOPDay3
             //rectangle.DisplayShapeInfo(); 
             #endregion
 
+
+            #region Part02Q02
+            //IAuthenticationService b = new BasicAuthenticationService();
+            //string UserName, Password, Role;
+            //Console.Write("Enter User Name : ");
+            //UserName = Console.ReadLine();
+
+            //Console.Write("Enter Password : ");
+            //Password = Console.ReadLine();
+
+            //Console.Write("Enter Role : ");
+            //Role = Console.ReadLine();
+
+            //Console.WriteLine(b.AuthenticateUser(UserName, Password));
+            //Console.WriteLine(b.AuthorizeUser(UserName, Role)); 
+            #endregion
 
 
         }

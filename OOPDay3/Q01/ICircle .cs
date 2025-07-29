@@ -8,5 +8,6 @@ namespace OOPDay3.Q01
 {
     internal interface ICircle:IShape
     {
+       
     }
 }
